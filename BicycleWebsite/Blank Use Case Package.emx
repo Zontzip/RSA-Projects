@@ -131,7 +131,7 @@
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_CUFP43tVEeW-c_xfK9-VUQ" type="Name"/>
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_CUFP5HtVEeW-c_xfK9-VUQ" type="Parent"/>
         <children xmi:type="notation:ListCompartment" xmi:id="_CUFP5XtVEeW-c_xfK9-VUQ" visible="false" type="Extension_Points"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CUEo0XtVEeW-c_xfK9-VUQ" x="8580" y="16368"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CUEo0XtVEeW-c_xfK9-VUQ" x="10032" y="15312"/>
       </children>
       <edges xmi:type="umlnotation:UMLConnector" xmi:id="_LHyrYHsMEeW-c_xfK9-VUQ" element="_LHnsQHsMEeW-c_xfK9-VUQ" source="_qeousHqZEeWgiInikFMJqw" target="_vvaEwHqZEeWgiInikFMJqw" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
         <children xmi:type="notation:DecorationNode" xmi:id="_LH1HoHsMEeW-c_xfK9-VUQ" type="NameLabel">
@@ -513,7 +513,7 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t1oG8HsNEeW-c_xfK9-VUQ"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_7_MCoHsNEeW-c_xfK9-VUQ" name="Visa Payment">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_7_MCoHsNEeW-c_xfK9-VUQ" name="Credit Card Payment">
     <extensionPoint xmi:id="_-PEakHsNEeW-c_xfK9-VUQ" name="ExtensionPoint1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_-weegHsNEeW-c_xfK9-VUQ" name="PayPal Payment">
