@@ -161,7 +161,7 @@
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_DW3wRnweEeWxBqJFKyPb0A" visible="false" type="StructureCompartment"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DW3JMXweEeWxBqJFKyPb0A" x="30096" y="8448"/>
       </children>
-      <children xmi:type="umlnotation:UMLShape" xmi:id="_rAhZgH_YEeWSpc1XbfzrLg" element="_rAe9QH_YEeWSpc1XbfzrLg" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_rAhZgH_YEeWSpc1XbfzrLg" element="_rAe9QH_YEeWSpc1XbfzrLg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_rAhZgn_YEeWSpc1XbfzrLg" type="ImageCompartment">
           <layoutConstraint xmi:type="notation:Size" xmi:id="_rAhZg3_YEeWSpc1XbfzrLg" width="1320" height="1320"/>
         </children>
@@ -172,7 +172,7 @@
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_rAinoH_YEeWSpc1XbfzrLg" type="OperationCompartment"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_rAinoX_YEeWSpc1XbfzrLg" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_rAinon_YEeWSpc1XbfzrLg" visible="false" type="StructureCompartment"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAhZgX_YEeWSpc1XbfzrLg" x="16764" y="-3036" width="6161"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rAhZgX_YEeWSpc1XbfzrLg" x="16764" y="-3036"/>
       </children>
       <children xmi:type="umlnotation:UMLShape" xmi:id="_rSzlEIAUEeWSpc1XbfzrLg" element="_rSxv4IAUEeWSpc1XbfzrLg" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_rS0MIIAUEeWSpc1XbfzrLg" type="ImageCompartment">
@@ -997,9 +997,7 @@
     </ownedAttribute>
     <ownedOperation xmi:id="__dEf8IAJEeWSpc1XbfzrLg" name="addCustomer"/>
     <ownedOperation xmi:id="_WIrYYIAOEeWSpc1XbfzrLg" name="addPaymentMethod"/>
-    <ownedOperation xmi:id="_Oh2J4IAOEeWSpc1XbfzrLg" name="loginCustomer">
-      <ownedParameter xmi:id="_CZN1EIAXEeWSpc1XbfzrLg" name="Parameter1" type="_QW_5YHtHEeW-c_xfK9-VUQ" direction="return"/>
-    </ownedOperation>
+    <ownedOperation xmi:id="_Oh2J4IAOEeWSpc1XbfzrLg" name="loginCustomer"/>
     <ownedOperation xmi:id="_yH6csIAJEeWSpc1XbfzrLg" name="addOrder"/>
     <ownedOperation xmi:id="_0u1boIAJEeWSpc1XbfzrLg" name="updateStock"/>
   </packagedElement>
@@ -1117,7 +1115,7 @@
       </ownedConnector>
       <lifeline xmi:id="_g6_AMIAVEeWSpc1XbfzrLg" name="registered Customer" represents="_g6_nQIAVEeWSpc1XbfzrLg" coveredBy="_svYbUIAVEeWSpc1XbfzrLg _svZCYoAVEeWSpc1XbfzrLg"/>
       <lifeline xmi:id="_sLWhMIAVEeWSpc1XbfzrLg" name="bikeWebsite" represents="_sLWhMYAVEeWSpc1XbfzrLg" coveredBy="_svYbUYAVEeWSpc1XbfzrLg _svYbUoAVEeWSpc1XbfzrLg _svZCYIAVEeWSpc1XbfzrLg _3LGMQIAVEeWSpc1XbfzrLg _3LGzUYAVEeWSpc1XbfzrLg"/>
-      <lifeline xmi:id="_z62jgIAVEeWSpc1XbfzrLg" name="dao" represents="_z63KkIAVEeWSpc1XbfzrLg" coveredBy="_3LGMQYAVEeWSpc1XbfzrLg _3LGMQoAVEeWSpc1XbfzrLg _3LGMQ4AVEeWSpc1XbfzrLg"/>
+      <lifeline xmi:id="_z62jgIAVEeWSpc1XbfzrLg" name="dAO" represents="_z63KkIAVEeWSpc1XbfzrLg" coveredBy="_3LGMQYAVEeWSpc1XbfzrLg _3LGMQoAVEeWSpc1XbfzrLg _3LGMQ4AVEeWSpc1XbfzrLg"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_svYbUIAVEeWSpc1XbfzrLg" covered="_g6_AMIAVEeWSpc1XbfzrLg" event="_s_J8sIAVEeWSpc1XbfzrLg" message="_svX0QIAVEeWSpc1XbfzrLg"/>
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_svYbUYAVEeWSpc1XbfzrLg" covered="_sLWhMIAVEeWSpc1XbfzrLg" event="_s_KjwIAVEeWSpc1XbfzrLg" message="_svX0QIAVEeWSpc1XbfzrLg"/>
       <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_svYbUoAVEeWSpc1XbfzrLg" covered="_sLWhMIAVEeWSpc1XbfzrLg" start="_svYbUYAVEeWSpc1XbfzrLg" finish="_svZCYIAVEeWSpc1XbfzrLg"/>
@@ -1137,7 +1135,7 @@
       <type xmi:type="uml:Actor" href="Blank%20Use%20Case%20Package.emx#_0d6KQHtUEeW-c_xfK9-VUQ?Requirements%20Model/Registered%20Customer?"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_sLWhMYAVEeWSpc1XbfzrLg" name="bikeWebsite" type="_rSxv4IAUEeWSpc1XbfzrLg"/>
-    <ownedAttribute xmi:id="_z63KkIAVEeWSpc1XbfzrLg" name="dao" type="_rAe9QH_YEeWSpc1XbfzrLg"/>
+    <ownedAttribute xmi:id="_z63KkIAVEeWSpc1XbfzrLg" name="dAO" type="_rAe9QH_YEeWSpc1XbfzrLg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_sfMKkIASEeWSpc1XbfzrLg" name="SendOperationEvent4"/>
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_sfMxoIASEeWSpc1XbfzrLg" name="ReceiveOperationEvent4"/>
