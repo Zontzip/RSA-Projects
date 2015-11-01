@@ -774,8 +774,8 @@
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_OEFSoH_IEeWSpc1XbfzrLg" name="order" visibility="private" type="_Ai3uwHtGEeW-c_xfK9-VUQ" association="_OEEEgH_IEeWSpc1XbfzrLg">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OEHu4H_IEeWSpc1XbfzrLg" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OEHH0H_IEeWSpc1XbfzrLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OEHu4H_IEeWSpc1XbfzrLg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OEHH0H_IEeWSpc1XbfzrLg"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_InVFgIAJEeWSpc1XbfzrLg" name="shoppingCart" visibility="private" type="_Lw2aUHwbEeWxBqJFKyPb0A" association="_InUecIAJEeWSpc1XbfzrLg">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_InVskYAJEeWSpc1XbfzrLg" value="1"/>
@@ -957,8 +957,8 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_rAe9QH_YEeWSpc1XbfzrLg" name="DAO">
     <ownedAttribute xmi:id="_9YW3AH_ZEeWSpc1XbfzrLg" name="order" visibility="private" type="_Ai3uwHtGEeW-c_xfK9-VUQ" association="_9YVB0H_ZEeWSpc1XbfzrLg">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9YW3An_ZEeWSpc1XbfzrLg" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9YW3AX_ZEeWSpc1XbfzrLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9YW3An_ZEeWSpc1XbfzrLg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9YW3AX_ZEeWSpc1XbfzrLg"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_Ubv7gIAZEeWSpc1XbfzrLg" name="product" visibility="private" type="_Rm6pIHtHEeW-c_xfK9-VUQ" association="_UbvUcIAZEeWSpc1XbfzrLg">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UbwikYAZEeWSpc1XbfzrLg" value="1"/>

@@ -774,8 +774,8 @@
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_OEFSoH_IEeWSpc1XbfzrLg" name="order" visibility="private" type="_Ai3uwHtGEeW-c_xfK9-VUQ" association="_OEEEgH_IEeWSpc1XbfzrLg">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OEHu4H_IEeWSpc1XbfzrLg" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OEHH0H_IEeWSpc1XbfzrLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OEHu4H_IEeWSpc1XbfzrLg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OEHH0H_IEeWSpc1XbfzrLg"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_InVFgIAJEeWSpc1XbfzrLg" name="shoppingCart" visibility="private" type="_Lw2aUHwbEeWxBqJFKyPb0A" association="_InUecIAJEeWSpc1XbfzrLg">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_InVskYAJEeWSpc1XbfzrLg" value="1"/>
@@ -957,8 +957,8 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_rAe9QH_YEeWSpc1XbfzrLg" name="DAO">
     <ownedAttribute xmi:id="_9YW3AH_ZEeWSpc1XbfzrLg" name="order" visibility="private" type="_Ai3uwHtGEeW-c_xfK9-VUQ" association="_9YVB0H_ZEeWSpc1XbfzrLg">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9YW3An_ZEeWSpc1XbfzrLg" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9YW3AX_ZEeWSpc1XbfzrLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9YW3An_ZEeWSpc1XbfzrLg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9YW3AX_ZEeWSpc1XbfzrLg"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_Ubv7gIAZEeWSpc1XbfzrLg" name="product" visibility="private" type="_Rm6pIHtHEeW-c_xfK9-VUQ" association="_UbvUcIAZEeWSpc1XbfzrLg">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UbwikYAZEeWSpc1XbfzrLg" value="1"/>
@@ -972,12 +972,6 @@
     <ownedOperation xmi:id="_WIrYYIAOEeWSpc1XbfzrLg" name="addPaymentMethod"/>
     <ownedOperation xmi:id="_Oh2J4IAOEeWSpc1XbfzrLg" name="loginCustomer">
       <ownedParameter xmi:id="_CZN1EIAXEeWSpc1XbfzrLg" name="Parameter1" type="_QW_5YHtHEeW-c_xfK9-VUQ" direction="return"/>
-      <ownedParameter xmi:id="_gPM7MIC4EeW8EaSDhd6QFw" name="username">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedParameter>
-      <ownedParameter xmi:id="_iegrYIC4EeW8EaSDhd6QFw" name="password">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedParameter>
     </ownedOperation>
     <ownedOperation xmi:id="_yH6csIAJEeWSpc1XbfzrLg" name="addOrder">
       <ownedParameter xmi:id="_YX-VsIC3EeW8EaSDhd6QFw" name="order" type="_Ai3uwHtGEeW-c_xfK9-VUQ"/>
@@ -1042,7 +1036,7 @@
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_z65m0YAVEeWSpc1XbfzrLg" type="Stereotype"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_z65m0oAVEeWSpc1XbfzrLg" type="Name"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_z65m04AVEeWSpc1XbfzrLg" type="Parent"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z64_wYAVEeWSpc1XbfzrLg" x="6670" y="317" width="2406" height="9525"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z64_wYAVEeWSpc1XbfzrLg" x="1786" y="185" width="2406" height="9525"/>
               </children>
               <children xmi:type="umlnotation:UMLShape" xmi:id="_3LbjcIAVEeWSpc1XbfzrLg" element="_3LGMQoAVEeWSpc1XbfzrLg" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3LbjcYAVEeWSpc1XbfzrLg" x="-1" y="1453" height="4683"/>
